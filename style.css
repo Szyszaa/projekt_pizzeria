@@ -1,0 +1,171 @@
+body{
+    background-image: url(wood-2203740_1280.jpg);
+    background-size: cover;
+    padding: 12px;
+}
+.main-box{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+.main-box .logo{
+    padding: 10px;
+    width: 20%;
+    height: 20%;
+    float: left;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 80px;
+}
+.main-box nav{
+    width: 60%;
+    float: left;
+}
+.main-box li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px auto 0;
+    text-align: center;
+    
+}
+.main-box li a{
+    padding: 15px;
+    text-decoration:underline;
+    font-size: 1.5em;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    text-align: center;
+}
+.main-box li a:hover{
+    color: red;
+}
+header .number{
+    color: white;
+    width: 20%;
+    float: left;
+    
+    font-family: 'Satisfy', cursive;
+    ;
+    
+    top: 50%;
+    font-size: 1.5em;
+}
+.number .tel{
+    margin: 30px auto 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.half-section{
+    width: 100%;
+    background-color: black;
+    height: 200px;
+}
+.box-half{
+    width: 50%;
+    height: 200px;
+    float: left;
+    background-color: black;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.box-half section .book{
+    color:lightskyblue;
+    border: 3px solid lightskyblue;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.box-half section{
+    margin: 15px;
+}
+.box-half section .rezer{
+    color:gold;
+    border: 3px solid gold;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.img-pizza{
+    background-image: url(https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.advantages-box{
+    background-color: transparent;
+}     
+.ones-advantage{
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 30px 0 30px;
+    
+}   
+.column-info{
+    height: 160px;
+    border: 5px solid black;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.one{
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/10/18/44/top-view-1248955_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.two{
+    background-image: url("https://cdn.pixabay.com/photo/2017/05/12/05/58/book-2306181_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.three{
+    background-image: url("https://cdn.pixabay.com/photo/2018/04/17/11/07/flower-3327249_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.column-info p{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-size: 1.4em;
+    font-family: 'Patrick Hand', cursive;
+    margin: 0;
+}
+
+.kitchen-menu{
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+    font-family: 'Patrick Hand', cursive;
+}
+.option-kitchen{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.option-kitchen img{
+    width: 100%;
+    height: 20%;
+}
+.page-footer ul {
+    margin:0 !important;
+    padding: 10px;
+    width: 100%;
+}
+
